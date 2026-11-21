@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "package": "dev.donut.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BuilderKeyboardMixin",
+    "CameraMixin",
+    "MouseHandlerMixin",
+    "MinecraftMixin",
+    "GameRendererMixin",
+    "GuiRendererMixin",
+    "HotbarMixin",
+    "HeldItemPrivacyMixin",
+    "AvatarItemPrivacyMixin",
+    "ScreenEffectRendererMixin",
+    "LevelRendererMixin",
+    "EntityRenderDispatcherMixin",
+    "BlockItemAccessor",
+    "BuilderClientLevelAccessor",
+    "BuilderLocalPlayerAccessor",
+    "BuilderPacketMixin",
+    "LightTextureMixin",
+    "FlyPlayerSaveMixin",
+    "FlyAbilitiesMixin",
+    "SidebarNameHiderMixin",
+    "BaseFinderPacketMixin",
+    "BaseFinderProjectionAccessor",
+    "SoundDetectorPacketMixin",
+    "StaffDetectorPacketMixin",
+    "SoundEntityEventAccessor",
+    "SoundDetectorLocalMixin",
+    "SoundDetectorClientSoundMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
